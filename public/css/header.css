@@ -106,6 +106,7 @@ header::after{
     z-index: 999;
     background-color: rgb(170,255,170);
     transition:all ease 1s;
+    opacity:0;
 }
 .okMenu > a{
     font-size:1px;

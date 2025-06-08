@@ -4,11 +4,13 @@ document.querySelector("#menu").addEventListener('click',()=>{
     document.querySelector("body").prepend(openMenu);
     openMenu.classList.add('okMenu');
     openMenu.innerHTML=`${textMenu}`;
+    let countLink=document.querySelectorAll(".okMenu > a");
     setTimeout(()=>{
         document.querySelector(".okMenu").style.cssText=`
             height:100vh;
+            opacity:1;
         `;
-        for(let i=+0;i<=textMenu.length;i++){
+        for(let i=0;i<countLink.length;i++){
             document.querySelectorAll(".okMenu > a")[i].style.fontSize=`33px`;
         }
         
@@ -20,12 +22,14 @@ document.querySelector("#menu").addEventListener('click',()=>{
         },777);
     });
     function closeMenu(){
-        document.querySelector(".okMenu > a").style.cssText=`
-            font-size:0px;
-        `;
+        
         document.querySelector(".okMenu").style.cssText=`
             height:0;
             top:100%;
+            opacity:0;
         `;
+        for(let i=+0;i<countLink.length;i++){
+            document.querySelectorAll(".okMenu > a")[i].style.fontSize=`0px`;
+        }
     }
 })
