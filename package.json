@@ -1,0 +1,26 @@
+{
+  "name": "fullstack-web-developer",
+  "version": "1.0.0",
+  "description": "Amir web developer",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amir248/fullStack-web-developer.git"
+  },
+  "keywords": [
+    "web",
+    "developre"
+  ],
+  "author": "Amir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amir248/fullStack-web-developer/issues"
+  },
+  "homepage": "https://github.com/amir248/fullStack-web-developer#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
