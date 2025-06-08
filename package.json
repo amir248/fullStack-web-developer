@@ -12,7 +12,7 @@
   },
   "keywords": [
     "web",
-    "developre"
+    "developer"
   ],
   "author": "Amir",
   "license": "ISC",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/amir248/fullStack-web-developer#readme",
   "dependencies": {
+    "ejs": "^3.1.10",
     "express": "^5.1.0"
   }
 }
