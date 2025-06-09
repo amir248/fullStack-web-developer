@@ -16,27 +16,27 @@ function year(){
 app.use('/services', (req, res) => {
   res.render('page',{
     title: "Freelancer",
-    description : "description",
-    name: "my beginnings",
-    article : 'landing page at figma layout',
+    description : "Заказать лендинг пейдж по макету с SEO оптимизацией и продвижением.",
+    name: "Services",
+    article : 'Адаптивный лендинг пейдж по макету из фигмы с SEO оптимизацией и продвижением в контекстной рекламе.',
     year : year()
   })
 });
 app.use('/projects', (req, res) => {
   res.render('page',{
     title: "What I've done",
-    description : "description",
-    name: "my beginnings",
-    article : 'oK services',
+    description : "Идеальный хостинг это свой собственный домашний сервер, потому что это дешевле чем платить в мАаскву!",
+    name: "Projects",
+    article : 'Запустить супер шикарный сервер из подручных средств, а это на старом компьютере с установленной debain server, фаерволом, эсесейч, нодой на NGINX с проброской необходимых портов на роутере, а это: 80, 443, 22.',
     year : year()
   })
 });
 app.use('/about', (req, res) => {
   res.render('page',{
     title: "My beginnings",
-    description : "description",
+    description : "Пишу сайты на великой троице веб технологий: HTML,CSS,JS(node.js);",
     name: "about",
-    article : 'oK services',
+    article : 'Первый язык программирования который я изучал в лахматом 2017 был PHP, потому что все трубили что php - это светлое будущеее, php - незаменим, php - крут, селен, невминяем. Но в реальной жизни JS - используется на всех сайтах, а с node.js он рабоатет еще и на вервере. Таким образом JS - основа любого хорошего сайта и все современные фреймворки: react, angular, vue - имеют под капотом node.js.',
     year : year()
   })
 });
@@ -44,7 +44,7 @@ app.use('/page', (req, res) => {
   res.render('page',{
     title: "FullStack Web Developer",
     description : "description",
-    name: "Amir Navrutdinov",
+    name: "Amir Navrutdinov ",
     article : 'Профессиональный FullStack разработчик с опытом создания масштабируемых веб-приложений. Специализируюсь на разработке как frontend, так и backend решений. JS and NODE.JS',
     year : year()
   })
@@ -53,7 +53,7 @@ app.use('/page', (req, res) => {
 app.use('/', (req, res) => {
   res.render('page',{
     title: "FullStack Web Developer",
-    description : "description",
+    description : "заказать лендинг пейдж, сайт визитку, одностраничник, по супер шикарной технологии, которая современная",
     name: "Amir Navrutdinov",
     article : 'Профессиональный FullStack разработчик с опытом создания масштабируемых веб-приложений. Специализируюсь на разработке как frontend, так и backend решений. JS and NODE.JS',
     year : year()
