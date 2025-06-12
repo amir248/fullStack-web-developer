@@ -24,5 +24,9 @@ article{
     align-items: start;
     justify-items: center;
     flex-direction: column;
-    height: calc(100vh - (110px + 70px));
+    min-height: calc(100vh - (110px + 70px));
+}
+picture > img{
+    width:100%;
+    max-width:400px;
 }
